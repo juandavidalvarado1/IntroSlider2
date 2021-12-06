@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "351740939245",
+    "project_id": "artstorejdnoabrirxd",
+    "storage_bucket": "artstorejdnoabrirxd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351740939245:android:08120c50a0b4e8307875e4",
+        "android_client_info": {
+          "package_name": "com.shubham.introslider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351740939245-uemsnlsr23d9igi3cdolpukmhsipg4it.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shubham.introslider",
+            "certificate_hash": "ba56a0731d1e7c48150562b147889ac9535d686d"
+          }
+        },
+        {
+          "client_id": "351740939245-tsavijlvnc7473hisa2nr81g6p7rg2vl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD92CfzBvjk5N8Co0JKsu8dEywku274bIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351740939245-tsavijlvnc7473hisa2nr81g6p7rg2vl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

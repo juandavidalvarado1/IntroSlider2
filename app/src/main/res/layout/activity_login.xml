@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/primaryColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvNameAppLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name_app_login"
+            android:textAlignment="center"
+            android:textSize="80sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"/>
+
+        <TextView
+            android:id="@+id/tvtextLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textlogin"
+            android:textAlignment="textStart"
+            android:textSize="35sp"
+            android:textColor="@color/secondaryTextColor"
+            android:layout_marginStart="43dp"
+            />
+
+        <EditText
+            android:id="@+id/etUser"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:background="@drawable/campos_hint"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:hint="@string/user_name"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:background="@drawable/campos_hint"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:hint="@string/user_password"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="70dp"
+            android:background="@drawable/btn_redondo"
+            android:text="@string/btn_login"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:id="@+id/tvA_Registro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textColor="@color/secondaryLightColor"
+            android:text="@string/link_register"
+            android:autoLink="all"
+            android:onClick="goToReg"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
